@@ -82,4 +82,13 @@
                 
                             }   
                     }
-            });
+            }); 
+
+            // Parte 2 Atomicità 
+                // Creo un array casuale con 16 numeri attraverso un ciclo 
+            const arrayControl=[]; 
+            for (let i= 0; i < 16; i++){
+                arrayControl.push(Math.floor(Math.random()*100));  
+            }
+            console.log(arrayControl);
+                // I numeri generati devono variare in base alla dificoltà selezionata
